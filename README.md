@@ -44,19 +44,38 @@ Repeat
 
 ---
 
+```bash
 # ⚙️ Installation
 
 ## 1️⃣ Clone the Repository
 
-```bash
+
 git clone https://github.com/YOUR_USERNAME/Face_Detection.git
 cd Face_Detection
-
+2️⃣ Install Dependencies
 pip install opencv-python
-
+▶️ Running the Project
 python face_detection.py
 
+Press q to exit the webcam window.
+
+🔍 Haar Cascade Classifier
+
+This project uses the pretrained model:
+
 haarcascade_frontalface_default.xml
+
+The model is trained using:
+
+Haar-like Features
+
+Integral Images
+
+AdaBoost Learning
+
+Cascade Classifiers
+
+These techniques allow fast face detection on CPU without deep learning.
 
 ⚙️ Detection Parameters
 Parameter	Purpose
@@ -107,3 +126,15 @@ Real-time video processing
 Classical object detection
 
 OpenCV fundamentals
+
+🤝 Contributing
+
+Contributions are welcome.
+
+Fork the repository
+
+Create a new branch
+
+Commit your changes
+
+Open a pull request
